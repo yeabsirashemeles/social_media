@@ -15,7 +15,7 @@ const threadSchema = new mongoose.Schema({
     },
     createdAt:{
         type: Date,
-        dafault: Date.now,
+        default: Date.now,
     },
     parentId:{
         type: String,
